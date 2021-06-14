@@ -8,6 +8,7 @@ import { ModalRef, ModalService } from './shared/components/modal/services/modal
 })
 export class AppComponent {
   @ViewChild('modal') public modalTemplateRef: TemplateRef<any>;
+
   title = 'a11y-p2';
   public firstName = 'Flavio';
   public modalRef: ModalRef;
